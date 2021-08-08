@@ -1,0 +1,15 @@
+# Created by https://www.gitignore.io/api/django
+# Edit at https://www.gitignore.io/?templates=django
+
+# *.log : 로그확장자를 가진 로그파일을 의미
+# db.sqlite3 : 데이터베이스 정보가 담긴 파일.
+# 이처럼 우리가 굳이 올리고 싶지 않은 파일들을 제외하고 싶을 때 .gitignore파일에 명시해주면 됩니다.
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
